@@ -94,7 +94,7 @@
 - 🛍️ [Лавка Избранного](https://store.yuri-khanon.com/)
 - 🤖 [Запустить ИИ-ассистента в Telegram](https://t.me/khanograf_official_bot)
 - ⚙️ [Платформа Савви](https://suvvy.ai/)
-- 📌 [Скриншот ИИ-ассистента](https://github.com/AnnaTharonZerocoder/AI_assistent/blob/main/Бот%20Ханограф%20Адъютант1.jpg?raw=true)
+  [Скриншот ИИ-ассистента](https://github.com/AnnaTharonZerocoder/AI_assistent/blob/main/Бот%20Ханограф%20Адъютант1.jpg?raw=true)
 
 ---
 
