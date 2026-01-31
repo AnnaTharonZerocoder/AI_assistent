@@ -9,7 +9,7 @@ flowchart TD
     D1[Анализ запроса → Поиск в базе знаний]:::action
     D2{Требуются уточнения?}:::decision
     D3[Задать уточняющий вопрос]:::action
-    D4[Сформировать ответ со ссылками на оригинальные страницы <br/>(с сохранением стиля и иронии)]:::action
+    D4[Сформировать ответ со ссылками на оригинальные страницы / с сохранением стиля и иронии]:::action
     
     %% Ветка 2: Навигация
     C2[Помощь с навигацией / освоением интерфейса]:::option
@@ -29,7 +29,7 @@ flowchart TD
     
     %% Завершение
     I{Продолжить диалог?}:::decision
-    J([Завершение]):::end
+    J([Завершение]):::exit
     
     %% Соединения
     A --> B
@@ -61,7 +61,7 @@ flowchart TD
     
     %% Стили
     classDef start fill:#4CAF50,stroke:#2E7D32,color:white,stroke-width:2px
-    classDef end fill:#F44336,stroke:#C62828,color:white,stroke-width:2px
+    classDef exit fill:#F44336,stroke:#C62828,color:white,stroke-width:2px
     classDef decision fill:#FFECB3,stroke:#FFA000,stroke-width:2px
     classDef action fill:#E3F2FD,stroke:#1E88E5,stroke-width:1.5px
     classDef option fill:#F3E5F5,stroke:#7B1FA2,stroke-width:1.5px
